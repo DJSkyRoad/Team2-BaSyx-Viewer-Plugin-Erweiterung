@@ -13,7 +13,7 @@
 | **Professors** | Markus Rentschler, Pawel Wojcik |
 | **Project Manager** | Manuel Sposato |
 | **Team Members** | Amon Rizzo · Jakob Pauls · David Ehrhardt · László Engemann · Matti Frey · Mattis Weigold |
-| **Version** | PM 0.1 – October 2025 - Document not final - need to add WBS and revise contents |
+| **Version** | PM 1.0 – October 2025 |
 
 ---
 
@@ -36,6 +36,7 @@
 | **Version** | **Date** | **Comment** | **Author** |
 |--------------|-----------|--------------|-------------|
 | 0.1 | 19.10.2025 | Document created | Manuel Sposato |
+| 1.0 | 24.10.2025 | Document completed | Manuel Sposato |
 
 ---
 
@@ -148,24 +149,9 @@ The project aims to improve interaction with digital nameplates and related subm
 
 ## 6. Work Breakdown Structure
 
-- **Project Documentation**
-  - CRS  
-  - SRS  
-  - SAS  
-  - BC  
-  - PM  
+<img width="1197" height="796" alt="WBSforPM" src="https://github.com/user-attachments/assets/ac6e721e-6c43-4da7-af37-5a49ccafbc2e" />
 
-- **Implementation**
-  - Filtering and sorting system  
-  - Submodel visual improvements  
-  - API extension  
-  - Performance optimization  
-
-- **Testing and Finalization**
-  - Prototype validation  
-  - Integration tests  
-  - User documentation  
-  - Presentation and delivery  
+_Picture 1: WBS_
 
 ---
 
@@ -175,15 +161,16 @@ The project aims to improve interaction with digital nameplates and related subm
 |-----------|--------------------|------------------|-----------------|
 | 0.0 | Project Documentation Complete | 15.11.2025 | — |
 | 1.0 | Implementation Phase | 07.03.2026 | — |
-| 1.1 | Prototype Complete | -.2026 | — |
-| 2.0 | Testing Phase | -.2026 | — |
-| 3.0 | Final Presentation | -.2026 | — |
+| 1.1 | Prototype Complete | 24.04.2026 | — |
+| 2.0 | Testing Phase | 10.05.2026 | — |
+| 3.0 | Final Presentation | 19.05.2026 | — |
 
 ---
 
 ## 8. Gantt Chart
-NOT FINAL
-<img width="1161" height="443" alt="image" src="https://github.com/user-attachments/assets/3947d8bc-677c-4c02-85ad-5bd71e22f3a3" />
+<img width="1798" height="844" alt="GANTTFINAL" src="https://github.com/user-attachments/assets/029dc5c7-307e-482a-81c2-a3ae3228b52c" />
+
+_Picture 2: Gantt-Diagram_
 
 ---
 
@@ -204,3 +191,4 @@ All documents must be written in English to ensure consistency and compliance wi
 
 **Goal:**  
 Deliver a high-quality, functional MVP that demonstrates clear improvement in usability, performance, and architecture.
+
