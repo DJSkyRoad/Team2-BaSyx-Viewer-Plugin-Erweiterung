@@ -24,6 +24,7 @@
 | Name | Date | Reason for Changes | Version |
 | :-- | :-- | :-- | :-- |
 | 0.1 | 1.11.2025 | Jakob Pauls | text version |
+| 1.0 | 1.11.2025 | Jakob Pauls | UML version |
 
 ***
 
@@ -80,24 +81,33 @@ This section provides the conceptual solution as required. The Architecture Diag
 
 ### 3.1. Component Diagram (Logical View)
 
-**Description**:
+**Description**: This diagram shows the high-level components of the **BaSyx Viewer Extension** within the existing **BaSyx Web UI**.  
+It highlights the new components — `RecursiveSearch`, `NameplateGenerator`, and `TimeSeriesViewer` — and their primary interaction partner, the existing `BasyxService`, which handles all API communication
 
 **PlantUML**:
+
+![Component Diagram](UML/component_diagram.jpg)
+
 
 
 ### 3.2. Class Diagrams (Detailed View)
 
 #### 3.2.1. TimeSeriesViewer Component (for FR.002)
 
-**Description**:
+**Description**: This Vue component is responsible for visualizing time-series data. It has been updated to include internal state and methods for sorting and filtering, directly addressing **FR.002**
 
 **PlantUML**:
+
+![TimeSeriesViewer](UML/time_series_viewer.jpg)
+
 
 #### 3.2.2. RecursiveSearch Component (for FR.003)
 
-**Description**:
+**Description**: This new component provides the global search functionality required by **FR.003**. It recursively traverses the AAS structure by making repeated calls via the `BasyxService`
 
 **PlantUML**:
+
+![RecursiveSearch](UML/recursive_search.jpg)
 
 
 ## 4. Key Design Decisions
